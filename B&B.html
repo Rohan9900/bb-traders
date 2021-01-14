@@ -1,0 +1,298 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		B&B Traders
+	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="sliding-image.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+		integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<style>
+		.email:hover {
+			color: red;
+		}
+
+		@media only screen and (max-width: 600px) {
+			div .img {
+				height: 75px;
+				width: 150px;
+				animation-name: john;
+				animation-duration: 8s;
+				animation-fill-mode: both;
+			}
+
+			div .g {
+				height: 100px;
+				width: 100px;
+			}
+		}
+
+
+
+		.img {
+			position: absolute;
+			top: 50%;
+
+			max-width: 200px;
+			max-height: 100vh;
+			animation-name: rohan;
+			animation-duration: 8s;
+			animation-fill-mode: both;
+		}
+
+		@keyframes rohan {
+			0% {
+				margin-left: 0px;
+			}
+
+			50% {
+				margin-left: 40%;
+			}
+
+			90% {
+
+				opacity: 1;
+			}
+
+			99% {
+				transform: rotate(-20deg) scale(1.2);
+				opacity: 0;
+			}
+
+
+			100% {
+				margin-left: 40%;
+				transform: rotate(-20deg) scale(1.2);
+				opacity: 0;
+			}
+
+
+
+		}
+
+		@keyframes john {
+			0% {
+				margin-left: 0px;
+			}
+
+			50% {
+				margin-left: 30%;
+			}
+
+			90% {
+
+				opacity: 1;
+			}
+
+			99% {
+				transform: rotate(-20deg) scale(1.2);
+				opacity: 0;
+			}
+
+
+			100% {
+				margin-left: 30%;
+				transform: rotate(-20deg) scale(1.2);
+				opacity: 0;
+			}
+
+
+
+		}
+
+		@keyframes ak {
+			0% {
+				opacity: 0;
+			}
+
+			50% {
+				opacity: 0;
+			}
+
+
+
+			100% {
+				opacity: 1;
+
+			}
+		}
+
+		@keyframes ll {
+			from {
+				transform: scale(1);
+			}
+
+			to {
+				transform: scale(1.5);
+				left: 40%;
+			}
+		}
+
+		.g {
+			position: absolute;
+			top: 45%;
+			left: 44%;
+			width: 150px;
+			height: 150px;
+			animation-name: ak, ll;
+			animation-duration: 9s, 4s;
+			animation-delay: 0s, 7s;
+			animation-fill-mode: both;
+		}
+
+		.full-body {
+			display: none;
+		}
+	</style>
+	<div class="full-body" id="full">
+
+
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+			<a class="navbar-brand" href="B&B.html"> <img src="logo.png" class="logo"></a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link active" href="B&B.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="company.html">Companys</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="about us.html">About Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact us.html">Contact Us</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+
+				</ul>
+				<form class="form-inline my-2 my-lg-0">
+					
+				</form>
+			</div>
+		</nav>
+
+		<!--mid part-->
+		<div class="sliding-image">
+			<img src="i2.jpg" class="sliding-image-pic">
+		</div>
+
+		<footer class="bg-primary text-white text-center text-lg-start" style="margin-top: 60px;">
+			<!-- Grid container -->
+			<div class="container p-4">
+				<!--Grid row-->
+				<div class="row">
+					<!--Grid column-->
+					<div class="col-lg-6 col-md-12 mb-4 mb-md-0" style="text-align: left;">
+						<a href="B&B.html">
+							<h5 class="text-uppercase"><img src="logo.png" style="height: 75px; width: 75px;"></h5>
+						</a>
+
+						<p class="email">
+							<i class="fa fa-envelope"></i><a href="mailto:bb_traders2007@yahoo.co.in"
+								style="color: white; text-decoration: none;"> bb_traders2007@yahoo.co.in</a>
+						</p>
+						<p class="email"> <i class="fa fa-phone"></i><a href="tel:+917307252500"
+								style="color: white; text-decoration: none;"> +91-7307252500</a>
+						</p>
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="text-align: start; margin-top: 10px;">
+						<h5 style="color: white;">India</h5><a href="map.html"
+							style="color: white; text-decoration: none;">
+							3711/9 Balaji Complex ,Old Pabhat Road ,opposite Modi Kunj Society ,Godown Area,
+							Zirakpur-140603,Punjab,India</a>
+					</div>
+					<!--Grid column-->
+
+					<!--Grid column-->
+					<div class="col-lg-3 col-md-6 mb-4 mb-md-0" style="margin-top: 10px;">
+
+
+						<ul class="list-unstyled" style="text-align: center;">
+							<li>
+								<a href="about us.html" class="text-white">About Us</a>
+							</li>
+							<li>
+								<a href="contact us.html" class="text-white">Contact Us</a>
+							</li>
+
+							<li>
+								<a href="company.html" class="text-white">Companys</a>
+							</li>
+							<li>
+								<a href="facility.html" class="text-white">Facilities</a>
+							</li>
+
+						</ul>
+					</div>
+					<!--Grid column-->
+				</div>
+				<!--Grid row-->
+			</div>
+			<!-- Grid container -->
+
+			<!-- Copyright -->
+			<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+				Since 2007
+
+			</div>
+			<!-- Copyright -->
+		</footer>
+	</div>
+	<!--splash-->
+	<div id="me" style=" background-color: #656565; position: absolute;">
+		<img src="horce.gif" class="img">
+		<img src="logo.png" class="g">
+	</div>
+	<script>
+		setTimeout(function () {
+			document.getElementById('me').style.display = "none";
+			document.getElementById('full').style.display = "block";
+		}, 13000);
+
+		var x = window.innerHeight;
+		var y = window.innerWidth;
+		document.getElementById("me").style.height = x + "px";
+		document.getElementById("me").style.width = y + "px";
+	</script>
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+		crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
